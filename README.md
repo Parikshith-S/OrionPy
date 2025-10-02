@@ -2,9 +2,14 @@
 
 [![Python](https://img.shields.io/badge/python-3.11-blue.svg)](https://www.python.org/)
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
-[![Build CI](https://github.com/<your-username>/OrionPy/actions/workflows/ci.yml/badge.svg)](https://github.com/<your-username>/OrionPy/actions)
+[![Build CI](https://github.com/Parikshith-S/OrionPy/actions/workflows/ci.yml/badge.svg)](https://github.com/Parikshith-S/OrionPy/actions)
 
 **OrionPy** is a Python-based workflow to process astronomical FITS images, starting with the Orion Nebula (M42). It provides tools to load, calibrate, stretch, and combine stacked FITS frames into stunning grayscale and RGB composites. The workflow balances scientific accuracy with astrophotography aesthetics.
+
+---
+
+## Output Image
+![One of the output image](output/M42_red_hist.png)
 
 ---
 
@@ -49,7 +54,7 @@ poetry shell
 ## Usage
 
 1. **Place your FITS files inside data/M42/:**
-# M42
+## M42
 
 * [M42B_stack.fits](.\M42\M42B_stack.fits)
 * [M42R_stack.fits](.\M42\M42R_stack.fits)
